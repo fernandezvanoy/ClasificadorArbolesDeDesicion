@@ -292,4 +292,3 @@ print(f"\n  Accuracy en test : {overall_acc:.4f}")
 print(f"  CV 10-fold mean  : {cv_scores[0].mean():.4f} ± {cv_scores[0].std():.4f}")
 print(f"\n  Feature más importante: {feat_sorted[0]} ({imp_sorted[0]:.3f})")
 print("═"*55)
-
